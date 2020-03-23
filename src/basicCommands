@@ -1,4 +1,5 @@
 # This will list the items of the given size
+# -gt flag is "greater to"
 Get-ChildItem -Recurse -File | where-object {$_.Length -gt 1gb} 
 
 
